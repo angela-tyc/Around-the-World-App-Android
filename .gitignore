@@ -1,15 +1,44 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Build directories
 /build
-/captures
-.externalNativeBuild
-.cxx
+app/build/
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
 local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (keep these secret!)
+*.jks
+*.keystore
+
+# Google Maps / Secrets
+google-services.json
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+out/
